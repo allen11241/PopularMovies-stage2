@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selector"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/video_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/youtube_logo_content_description"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="4dp"
+        android:src="@drawable/youtube_3363633_640"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/trailer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="0dp"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@id/video_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Trailer 1"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="error_message">
+        A network error has occurred. Please check your Internet connection and then tap anywhere on screen to attempt to load the movies again.
+    </string>
+    <string name="error_message_detail">
+         A network error has occurred. Could not load the movie trailers or reviews. Please check your Internet connection and then tap on this to attempt to load the app again.
+    </string>
+
+    <string name="no_reviews">This movie has no reviews yet.</string>
+    <string name="no_trailers">This movie has no trailers listed.</string>
+    <string name="no_favorites">You don\'t have any favorites.</string>
+
+    <string name="description">Synopsis: </string>
+    <string name="release_date">Release Date: </string>
+    <string name="user_rating">User Rating: </string>
+    <string name="action_settings">Settings</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="poster_content_description">Movie Poster</string>
+    <string name="reviews_label">Reviews:</string>
+    <string name="author_label">Author: </string>
+    <string name="trailers_label">Trailers:</string>
+    <string name="trailer">Trailer </string>
+    <string name="favorites_title">My Favorites</string>
+    <string name="btn_add_favorite_label">Add Favorite</string>
+    <string name="added_to_favorites">Added to Favorites</string>
+    <string name="removed_from_favorites">Removed from Favorites</string>
+    <string name="of">of</string>
+    <string name="not_listed">Not Listed</string>
+
+    <string name="btn_prev_content_description">Previous Author</string>
+    <string name="btn_next_content_description">Next Author</string>
+    <string name="youtube_logo_content_description">Youtube Video</string>
+
+    <string name="pref_key">sort</string>
+    <string name="pref_popular_label">Most Popular</string>
+    <string name="pref_popular_value">http://api.themoviedb.org/3/movie/popular?api_key=901ea24cdf15b2bb801af77bfadb4831</string>
+    <string name="pref_highest_rating_label">Highest Rating</string>
+    <string name="pref_highest_rating_value">https://api.themoviedb.org/3/discover/movie?api_key=901ea24cdf15b2bb801af77bfadb4831&amp;language=en-US&amp;sort_by=vote_average.desc&amp;include_adult=false&amp;include_video=false&amp;page=1</string>
+</resources>
